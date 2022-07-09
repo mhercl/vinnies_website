@@ -1,0 +1,19 @@
+h1 {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;   
+}
+h2 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+p {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+body {
+    background-image: url("cake.jpg");
+    background-size: cover;
+}
