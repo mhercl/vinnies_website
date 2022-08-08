@@ -1,25 +1,22 @@
-h1 {
-    color:rgb(144, 33, 185);
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align:center;
-
+.topnav {
+    background-color: ivory;
+    overflow: hidden
 }
-h2 {
+.topnav a {
+    float: left;
+    color: #160808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: cursive;
+}
+.topnav a:hover {
+    background-color: rgb(141, 225, 191);
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    text-align:left;
-}
-p {
-    color:black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    text-align: left;
-}
-body {
-    background-image: url("cake.jpg");
-    background-size: cover;
-}
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
