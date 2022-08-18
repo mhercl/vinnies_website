@@ -1,3 +1,14 @@
+.flex-container {
+  display:flex;
+  background-color: #f1f1f1;
+  color: azure;
+  width: auto;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
 .topnav {
     background-color: ivory;
     overflow: hidden
