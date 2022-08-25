@@ -21,7 +21,6 @@
     background-color: #04AA6D;
     color: white;
   }
-  / BASIC
 
 ul {
   display: flex;
@@ -34,7 +33,6 @@ li {
 }
 
 li:last-child {
-  // There's no science in using "10" here. In all my testing, this delivered the best results.
   flex-grow: 10;
 }
 
@@ -45,9 +43,6 @@ img {
   vertical-align: bottom;
 }
 
-// ADVANCED
-
-// Portrait
 
 @media (max-aspect-ratio: 1/1) {
   li {
@@ -63,7 +58,7 @@ img {
   }
 }
 
-// Smaller screens in portrait
+
 
 @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
   ul {
